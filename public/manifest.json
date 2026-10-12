@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "دكانة",
+  "short_name": "دكانة",
+  "description": "منصة وسوق إلكتروني عراقي احترافي يربط الزبائن والتجار في كافة المحافظات العراقية مع الدفع عند الاستلام ونظام توثيق الطلبات والتقييمات الموثوقة.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#6b21a8",
+  "theme_color": "#6b21a8",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "usr_merch_1",
+    "phone": "+9647701112233",
+    "displayName": "الحاج مهدي التميمي (تمور النخيل)",
+    "role": "merchant",
+    "governorate": "بغداد",
+    "merchantStoreId": "merch_dates_1",
+    "createdAt": "2026-09-01T10:00:00.000Z",
+    "status": "active",
+    "passwordHash": "1f0a13a12fa26230b5cf5937413ad270283c047f8bccc4d806ca06d6b35daeb5d9877710229cad1653228205717d26cac22f9cc60166a516e67fea7cc1807313",
+    "passwordSalt": "ac519fe8af3453d50eb73624d4f12534"
+  },
+  {
+    "id": "usr_merch_5",
+    "phone": "+9647705556677",
+    "displayName": "الأستاذ حيدر الرشيد (أزياء الرشيد)",
+    "role": "merchant",
+    "governorate": "بغداد",
+    "merchantStoreId": "merch_fashion_5",
+    "createdAt": "2026-09-18T10:00:00.000Z",
+    "status": "active",
+    "passwordHash": "53dc8b7bed1bf33034bc7ab9f1192521ee0ffcb914a35a5bac54fa817c13f486604e75459f603239db408d9366d83a20da218e58113db3da7586c9fee7af7318",
+    "passwordSalt": "216bf4fa2987e0645f28ce28db2e0542"
+  },
+  {
+    "id": "usr_customer_demo",
+    "phone": "+9647701234567",
+    "displayName": "علي كريم الربيعي",
+    "role": "customer",
+    "governorate": "بغداد",
+    "createdAt": "2026-09-25T11:00:00.000Z",
+    "status": "active",
+    "passwordHash": "1f0a13a12fa26230b5cf5937413ad270283c047f8bccc4d806ca06d6b35daeb5d9877710229cad1653228205717d26cac22f9cc60166a516e67fea7cc1807313",
+    "passwordSalt": "ac519fe8af3453d50eb73624d4f12534"
+  },
+  {
+    "id": "usr_admin",
+    "phone": "+9647862214922",
+    "displayName": "مدير منصة دكانة الرئيسي",
+    "role": "admin",
+    "governorate": "بغداد",
+    "createdAt": "2026-09-01T10:00:00.000Z",
+    "status": "active",
+    "passwordHash": "d04e8a3f13f50756e1117ef6583a16a94c176dda2c52cb0fd0a78c0aa949044be750d850510cca3467aaf097c29d380cdfafc20e2e7aa32ed81e05b4a9a8c170",
+    "passwordSalt": "1de674a293ce2acef182944df4ac8714"
+  },
+  {
+    "id": "usr_1791532037965",
+    "phone": "+9647709911223",
+    "displayName": "حيدر البغدادي",
+    "role": "customer",
+    "governorate": "بغداد",
+    "createdAt": "2026-10-09T07:47:17.965Z",
+    "status": "active",
+    "passwordHash": "aaff9cd52f8c765c35c740ee19da88ae002a62669dad0265301f384374d18ed6e25f8798a711cfae3166a0567ff0e5e4152860828a9f0bb9804b8c0c3e834fbd",
+    "passwordSalt": "e8fd5f498baa5002a073b677ad99b69b"
+  },
+  {
+    "id": "usr_1791534072799",
+    "phone": "+9647708899112",
+    "displayName": "محمد علي المنصوري",
+    "role": "customer",
+    "governorate": "البصرة",
+    "createdAt": "2026-10-09T08:21:12.799Z",
+    "status": "active",
+    "passwordHash": "f83c05b35d5c7f55b148bbe0409fdabdcb3338a73f9b7164a98840b18e963019504b85e104f4001f20e582a330b6409beec192a8f0bc467f57c270d4403be7a3",
+    "passwordSalt": "c8b057e2a66703d8a607be158512ee3c"
+  },
+  {
+    "id": "usr_reset_test",
+    "phone": "+9647702233445",
+    "displayName": "مستخدم تجربة استعادة المرور",
+    "role": "customer",
+    "governorate": "بغداد",
+    "createdAt": "2026-10-09T08:21:29.149Z",
+    "status": "active",
+    "passwordHash": "c17042aa5f280e11f4f19a818dd6270906db86bde6501f623588536ce22a4a764b02a3538a71f34ee0ce29b9c157cae5616b1b6cb46cdb771eda71da07eb8f03",
+    "passwordSalt": "c113de2fe9a34bd1d72dff753ba33d0d"
+  },
+  {
+    "id": "usr_1791537427698",
+    "phone": "+9647704597493",
+    "displayName": "أحمد جاسم البصري",
+    "role": "customer",
+    "governorate": "البصرة",
+    "createdAt": "2026-10-09T09:17:07.698Z",
+    "status": "active",
+    "passwordHash": "31bd475543a57800b33d50cb0e250be9e4ca442f45b772caacc382e59c435cb2d52867a8b0cede26e7692b6983857c10cf195aba6946b84704fd84e628e044e8",
+    "passwordSalt": "6aa8cc4c57b3c1e9ae3dbf084baf2156"
+  },
+  {
+    "id": "usr_1791537459589",
+    "phone": "+9647702272947",
+    "displayName": "أحمد جاسم البصري",
+    "role": "customer",
+    "governorate": "البصرة",
+    "createdAt": "2026-10-09T09:17:39.590Z",
+    "status": "active",
+    "passwordHash": "16656e5f2b1b5380ed9ba7c00aafb8a51102829b9cd487b34a09ff496feacfa81495f51c0708fe2777d52ea516f8b173aa2e867205b3a8601e2cd85ee6cf3e10",
+    "passwordSalt": "12cc77862bec062ecb1d979f0a574bf1"
+  },
+  {
+    "id": "usr_1791537484133",
+    "phone": "+9647707162275",
+    "displayName": "أحمد جاسم البصري",
+    "role": "customer",
+    "governorate": "البصرة",
+    "createdAt": "2026-10-09T09:18:04.133Z",
+    "status": "active",
+    "passwordHash": "0e519100b6796fb087b3a314619f88b8d13bc2c3db97bd5a1147811c2d55202fb219e0cd383870e71a0e7317aea046dda88938b60479b108ea87567944541c76",
+    "passwordSalt": "e55f6fe7438077b91846bdf3df489964"
+  },
+  {
+    "id": "usr_1791537504518",
+    "phone": "+9647704770913",
+    "displayName": "أحمد جاسم البصري",
+    "role": "customer",
+    "governorate": "البصرة",
+    "createdAt": "2026-10-09T09:18:24.518Z",
+    "status": "active",
+    "passwordHash": "4e5c728cd21810f1d05d4b4897d0047f56218fca53fbd516e8a6daeb55371d73958da57c75c8dbacb957819f736bb44bcd67758b832ef8ce6c39e00c13d8178a",
+    "passwordSalt": "f9b0d1607c0b490918671d9936a085a6"
+  },
+  {
+    "id": "usr_1791537505033",
+    "phone": "+9647711477407",
+    "displayName": "مستخدم اختبار إعادة التعيين",
+    "role": "customer",
+    "governorate": "بغداد",
+    "createdAt": "2026-10-09T09:18:25.033Z",
+    "status": "active",
+    "passwordHash": "a1fbde865d9a50da17f5f53b41242e4ccfa4236ed86f4311d93ba37deae087659c7de4d4163620aba3e909f4ecf1ae3fa38f65616666559835d00e85ff18a75c",
+    "passwordSalt": "26b0351ab9abb010b680e48a66cad53b"
+  },
+  {
+    "id": "usr_1791538361570",
+    "phone": "+9647709447827",
+    "displayName": "أحمد جاسم البصري",
+    "role": "customer",
+    "governorate": "البصرة",
+    "createdAt": "2026-10-09T09:32:41.570Z",
+    "status": "active",
+    "passwordHash": "5bd76a8a44d6a9de79171d91b56207c9abaec19bc259c3e6fb6a5359f091665b2c6c452f9740195658baf202627353b8eefdbcbddece83e22be3e23c3d63842a",
+    "passwordSalt": "1a4c3710215aa6674c71b578f00aae56"
+  },
+  {
+    "id": "usr_1791538362111",
+    "phone": "+9647715791093",
+    "displayName": "مستخدم اختبار إعادة التعيين",
+    "role": "customer",
+    "governorate": "بغداد",
+    "createdAt": "2026-10-09T09:32:42.111Z",
+    "status": "active",
+    "passwordHash": "e7c221b5d310fcf1ed78bece86a2f30223ea7a8a0e759601cc8a9a68becdae659dc149dc9069f93cffee5825bb7497106a53d06682f7230487aa0661c6b36fa4",
+    "passwordSalt": "9e67f2c2e475b3d4d610962756603ceb"
+  },
+  {
+    "id": "usr_1791563627675",
+    "phone": "+9647833676364",
+    "displayName": "mfade",
+    "role": "merchant",
+    "governorate": "بابل",
+    "merchantStoreId": "merch_1791563627675",
+    "createdAt": "2026-10-09T16:33:47.675Z",
+    "status": "active",
+    "passwordHash": "b80d09eef1c560c982d2df6dcf379e6945d2bb859f03e95615d3a97be93804a0598de103ec1676d34f92ba40526de85f89bdfe5250b8113d6b9686a0a3daa379",
+    "passwordSalt": "765337797e5e5b558680d802a3f50e28"
+  },
+  {
+    "id": "usr_1791612694098",
+    "phone": "+9647824571394",
+    "displayName": "nn",
+    "role": "customer",
+    "governorate": "بغداد",
+    "createdAt": "2026-10-10T06:11:34.098Z",
+    "status": "active",
+    "passwordHash": "73723b761313827a5feaec1f3f2cd44a6b0ea41f5fb71388ecfb3a3bfc0022b582f41943b4d229a12de2efd71fd13cd0b5db828271f8b4d72946f8c866b2a93e",
+    "passwordSalt": "84fcc07bbbd5be182ec17856d635a41f"
+  }
+]

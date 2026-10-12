@@ -1,0 +1,6 @@
+{
+  "name": "دكانة",
+  "description": "منصة وسوق إلكتروني عراقي احترافي يربط الزبائن والتجار في كافة المحافظات العراقية مع الدفع عند الاستلام ونظام توثيق الطلبات والتقييمات الموثوقة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

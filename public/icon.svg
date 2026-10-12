@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- 100% Purple Gradient Background (Strictly NO blue, NO yellow) -->
+    <linearGradient id="purpleBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E0854"/>
+      <stop offset="35%" stop-color="#4C1D95"/>
+      <stop offset="70%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#3B0764"/>
+    </linearGradient>
+
+    <!-- Inner Purple Radial Glow -->
+    <radialGradient id="purpleInnerGlow" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#7E22CE" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#3B0764" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Shopping Bag Surface Gradient -->
+    <linearGradient id="bagSurfaceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3E8FF"/>
+    </linearGradient>
+
+    <!-- Purple Accent Gradient (replacing previous gold) -->
+    <linearGradient id="purpleAccentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF"/>
+      <stop offset="50%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#9333EA"/>
+    </linearGradient>
+
+    <!-- Deep Purple Soft Shadow -->
+    <filter id="softPurpleShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1E0538" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- App Icon Squircle Container -->
+  <rect width="512" height="512" rx="128" fill="url(#purpleBgGrad)"/>
+  <rect width="512" height="512" rx="128" fill="url(#purpleInnerGlow)"/>
+
+  <!-- Border highlight for iOS/Android elegance -->
+  <rect x="3" y="3" width="506" height="506" rx="125" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="6"/>
+
+  <g filter="url(#softPurpleShadow)">
+    <!-- Shopping Bag Handle -->
+    <path d="M196 175 C196 118, 316 118, 316 175" 
+          fill="none" 
+          stroke="url(#bagSurfaceGrad)" 
+          stroke-width="26" 
+          stroke-linecap="round"/>
+
+    <!-- Shopping Bag Body with Modern Geometric Notch -->
+    <path d="M150 192
+             L362 192
+             C376 192, 386 204, 384 218
+             L358 396
+             C355 416, 338 430, 318 430
+             L194 430
+             C174 430, 157 416, 154 396
+             L128 218
+             C126 204, 136 192, 150 192 Z"
+          fill="url(#bagSurfaceGrad)"/>
+
+    <!-- Integrated Modern Calligraphic "د" (Dal) inside Bag in Royal Purple -->
+    <path d="M316 250
+             C316 250, 292 246, 268 250
+             C232 256, 204 284, 204 324
+             C204 354, 226 372, 260 372
+             C294 372, 320 364, 328 360"
+          fill="none"
+          stroke="#6D28D9"
+          stroke-width="32"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Shopping Cart Handle & Basket Accent in Purple Accent (No Yellow, No Blue) -->
+    <path d="M304 220 L318 206 L338 206"
+          fill="none"
+          stroke="url(#purpleAccentGrad)"
+          stroke-width="12"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Shopping Cart Miniature Wheels -->
+    <circle cx="316" cy="308" r="14" fill="url(#purpleAccentGrad)"/>
+    <circle cx="316" cy="308" r="5" fill="#FFFFFF"/>
+    
+    <circle cx="282" cy="316" r="11" fill="url(#purpleAccentGrad)"/>
+    <circle cx="282" cy="316" r="4" fill="#FFFFFF"/>
+  </g>
+</svg>

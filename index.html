@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>دكانة</title>
+    <meta name="description" content="منصة وسوق إلكتروني عراقي احترافي يربط الزبائن والتجار في كافة المحافظات العراقية مع الدفع عند الاستلام ونظام توثيق الطلبات والتقييمات الموثوقة." />
+    <meta property="og:title" content="دكانة" />
+    <meta property="og:description" content="منصة وسوق إلكتروني عراقي احترافي يربط الزبائن والتجار في كافة المحافظات العراقية مع الدفع عند الاستلام ونظام توثيق الطلبات والتقييمات الموثوقة." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#6b21a8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="دكانة" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      // Ignore WebSocket HMR errors in iframe environment per environment guidelines
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event.reason;
+        var msg = (reason && reason.message) || String(reason || '');
+        if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite:ws') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        var msg = event.message || '';
+        var filename = event.filename || '';
+        if (msg.indexOf('WebSocket') !== -1 || filename.indexOf('@vite/client') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-zinc-50 text-zinc-900 font-sans antialiased selection:bg-purple-200 selection:text-purple-900">
+    <div id="root">
+      <!-- Instant pre-mount splash screen before React hydrates -->
+      <div style="position:fixed;inset:0;background:linear-gradient(135deg, #240642 0%, #3b0764 50%, #1e0538 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;font-family:'Cairo',sans-serif;direction:rtl;z-index:9999;">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+          <div style="width:84px;height:84px;border-radius:24px;background:linear-gradient(135deg, #581c87, #7e22ce);padding:2px;box-shadow:0 12px 30px rgba(46,8,84,0.6);display:flex;align-items:center;justify-content:center;">
+            <svg viewBox="0 0 100 100" style="width:72px;height:72px;" fill="none">
+              <path d="M38 33 C38 22 62 22 62 33" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+              <path d="M28 36 L72 36 C74.8 36 77 38.4 76.5 41.2 L71.5 76 C71 80 67.5 83 63.5 83 L36.5 83 C32.5 83 29 80 28.5 76 L23.5 41.2 C23 38.4 25.2 36 28 36 Z" fill="#FFFFFF"/>
+              <path d="M63 47 C63 47 57 46 51 47 C43 49 38 55 38 62 C38 69 43 72.5 50 72.5 C57 72.5 62 70.5 64 69.5" stroke="#7E22CE" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div style="font-size:38px;font-weight:900;letter-spacing:-0.5px;color:#FFFFFF;line-height:1;">
+            دُكَّانَة
+          </div>
+          <div style="display:flex;align-items:center;gap:3px;color:#E9D5FF;font-weight:700;font-size:16px;direction:ltr;letter-spacing:1px;">
+            <svg viewBox="0 0 34 34" style="width:20px;height:20px;" fill="none">
+              <path d="M2.5 8.5 H7.5" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round"/>
+              <path d="M7.5 7 H19.5 C26 7, 29.5 11, 29.5 16.5 C29.5 22, 26 26, 19.5 26 H7.5 Z" fill="#FFFFFF"/>
+              <path d="M11.5 10.5 H18.5 C22.5 10.5, 25 13, 25 16.5 C25 20, 22.5 22.5, 18.5 22.5 H11.5 Z" fill="#3B0764"/>
+              <circle cx="11.5" cy="30" r="2.4" fill="#FFFFFF"/>
+              <circle cx="21.5" cy="30" r="2.4" fill="#FFFFFF"/>
+            </svg>
+            <span>ukanah</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
